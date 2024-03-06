@@ -37,7 +37,7 @@ f.write("user_features({}).\n".format(userInpContInterests))
 
 f.close()
 
-prolog.consult("A1.pl")
+prolog.consult("Code.pl")
 
 c = list(prolog.query("undo"))
 c = list(prolog.query("go1"))
